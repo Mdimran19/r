@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const AboutPage = () => {
     return (
@@ -87,7 +88,9 @@ const AboutPage = () => {
                         <li className='p-4 text-2xl'>Continuously learning and improving development and operations best practices..</li>
                     </ul>
                 </div>
-
+             
+              <button className='hover:bg-white hover:font-semibold'><a href="/cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500
+            flex items-center gap-2'> my resume </a></button>
 
         </div>
     )
